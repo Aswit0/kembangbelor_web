@@ -11,11 +11,11 @@ Route::get('/', function () {
     return view('public/home');
 });
 
-Route::get('/', function () {
+Route::get('/kritik', function () {
     return view('public/kritik');
 });
 
-Route::get('/', function () {
+Route::get('/360', function () {
     return view('public/360');
 });
 

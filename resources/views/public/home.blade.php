@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="build/style/home.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="build/assets/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Document</title>
 </head>
 <body>
 
@@ -116,7 +116,7 @@
 <div class="container my-5">
   <div class="row">
     <h1 class="text-center mb-5">Wisata Terbaru</h1>
-    <div class="col-md-4">
+    <div class="col-md-4 mb-4"> <!-- Added mb-4 for spacing -->
       <div class="card wisata-card">
         <img src="build/assets/wisata1.jpg" class="card-img-top wisata-img-top" alt="Image">
         <div class="card-body">
@@ -126,55 +126,55 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 mb-4"> <!-- Added mb-4 for spacing -->
       <div class="card wisata-card">
         <img src="build/assets/wisata2.jpg" class="card-img-top wisata-img-top" alt="Image">
         <div class="card-body">
           <h5 class="card-title">Bernah De Vallei</h5>
           <p class="card-text">Tempat yang cocok untuk melakukan kegiatan outdor bersama keluarga maupun teman terdekat.</p>
-          <a href="#" class="btn btn-green">jelajahi</a>
+          <a href="#" class="btn btn-green">Jelajahi</a>
         </div>
       </div>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-4 mb-4"> <!-- Added mb-4 for spacing -->
       <div class="card wisata-card">
         <img src="build/assets/wisata3.jpg" class="card-img-top wisata-img-top" alt="Image">
         <div class="card-body">
           <h5 class="card-title">Bernah Camping Ground</h5>
           <p class="card-text">Lokasi yang berada di tengah hutan menjadikan suasana yang cocok untuk mendirikan tenda dan membuat api unggun.</p>
-          <a href="#" class="btn btn-green">jelajahi</a>
+          <a href="#" class="btn btn-green">Jelajahi</a>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="container marketing">
-<h1 class="text-center mb-5">Review Pengunjung</h1>
 
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-        <div class="col-lg-4">
-            <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="build/assets/review1.png" alt="Your Image">
-            <h3>shatierra.she</h3>
-            <p>Yeay jalan-jalan naik motor sama papa bunda ✨.</p>
-            <p><a class="btn btn-secondary" href="https://www.instagram.com/p/Cx-WjODvgKN/?utm_source=ig_web_copy_link">Lihat Detail &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
+<div class="container marketing text-center">
+  <h1 class="mb-5">Review Pengunjung</h1>
 
+  <div class="row justify-content-center">
       <div class="col-lg-4">
-        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="build/assets/review2.png" alt="Your Image">
-        <h3>imroncr.22</h3>
-        <p>RAN ON ADVOCACY di @bernahdevalleipacet bersama @putraputrinusantarajawatimur.</p>
-        <p><a class="btn btn-secondary" href="https://www.instagram.com/p/C34x2xyrkJy/?utm_source=ig_web_copy_link">Lihat Detail &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
+          <img class="bd-placeholder-img rounded-circle mx-auto" width="140" height="140" src="build/assets/review1.png" alt="Your Image">
+          <h3>shatierra.she</h3>
+          <p>Yeay jalan-jalan naik motor sama papa bunda ✨.</p>
+          <p><a class="btn btn-secondary" href="https://www.instagram.com/p/Cx-WjODvgKN/?utm_source=ig_web_copy_link">Lihat Detail &raquo;</a></p>
+        </div>
 
-      <div class="col-lg-4">
-        <img class="bd-placeholder-img rounded-circle" width="140" height="140" src="build/assets/review3.png" alt="Your Image">
-        <h3>_rizqiyahftr30</h3>
-        <p>Love your self, because menjadi yang terbaik dimata manusia itu ngga akan ada habisnya.</p>
-        <p><a class="btn btn-secondary" href="https://www.instagram.com/p/C4DyQkpPWKC/?utm_source=ig_web_copy_link">Lihat Detail &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+      <img class="bd-placeholder-img rounded-circle mx-auto" width="140" height="140" src="build/assets/review2.png" alt="Your Image">
+      <h3>imroncr.22</h3>
+      <p>RAN ON ADVOCACY di @bernahdevalleipacet bersama @putraputrinusantarajawatimur.</p>
+      <p><a class="btn btn-secondary" href="https://www.instagram.com/p/C34x2xyrkJy/?utm_source=ig_web_copy_link">Lihat Detail &raquo;</a></p>
     </div>
+
+    <div class="col-lg-4">
+      <img class="bd-placeholder-img rounded-circle mx-auto" width="140" height="140" src="build/assets/review3.png" alt="Your Image">
+      <h3>_rizqiyahftr30</h3>
+      <p>Love your self, because menjadi yang terbaik dimata manusia itu ngga akan ada habisnya.</p>
+      <p><a class="btn btn-secondary" href="https://www.instagram.com/p/C4DyQkpPWKC/?utm_source=ig_web_copy_link">Lihat Detail &raquo;</a></p>
+    </div>
+  </div>
 </div>
 
 @include('layouts\footer')

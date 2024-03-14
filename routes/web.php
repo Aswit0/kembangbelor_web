@@ -11,6 +11,16 @@ Route::get('/', function () {
     return view('public/home');
 });
 
+Route::get('/', function () {
+    return view('public/kritik');
+});
+
+Route::get('/', function () {
+    return view('public/360');
+});
+
+
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

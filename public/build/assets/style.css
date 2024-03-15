@@ -24,6 +24,26 @@ body {
   color: #333!important;
 }
 
+/* Carousel
+================================*/
+.carousel-item img {
+  height: 600px; /* Set a fixed height for the images */
+  object-fit: cover; 
+  filter: brightness(70%); /* Apply darkness to the images *//* Ensure the image covers the entire container */
+}
+
+.carousel-item h2, .carousel-item h1{
+  font-family: 'Montserrat', sans-serif;
+   /* Apply Montserrat font to h2 */
+}
+
+.carousel-item p {
+  font-family: 'Poppins', sans-serif; /* Apply Poppins font to p */
+}
+
+.carousel-caption button {
+  border-radius: 25px; /* Make the button rounded */
+}
 /* Tentang Desa
 ================================*/
 .card {
@@ -35,6 +55,12 @@ body {
   transform: translateY(-5px); 
 }
 
+/* WIsata
+================================*/
+.wisata-card .card-img-top {
+  height: 200px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
 /* Footer
 ================================*/
 footer {

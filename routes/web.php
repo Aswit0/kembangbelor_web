@@ -19,6 +19,10 @@ Route::get('/360', function () {
     return view('public/360');
 });
 
+Route::get('/wisata', function () {
+    return view('public/wisata');
+});
+
 
 
 Route::get('/dashboard', function () {

@@ -177,6 +177,23 @@
   </div>
 </div>
 
+<script>
+  // Add a class to the navbar when hovering over the carousel
+  document.addEventListener("DOMContentLoaded", function() {
+      const navbar = document.querySelector('.navbar');
+      const carousel = document.getElementById('carouselExampleIndicators');
+
+      carousel.addEventListener('mouseenter', function() {
+          navbar.classList.add('navbar-at-carousel');
+      });
+
+      carousel.addEventListener('mouseleave', function() {
+          navbar.classList.remove('navbar-at-carousel');
+      });
+  });
+</script>
+
+
 @include('layouts\footer')
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

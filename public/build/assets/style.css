@@ -6,22 +6,34 @@ body {
 
 /* Navbar
 ================================*/
+
+.navbar {
+  background-color: transparent !important;
+  transition: background-color 0.5s ease;
+  backdrop-filter: blur(20px);
+}
+
+.navbar.navbar-at-carousel {
+  background-color: white !important;
+  transition: background-color 0.5s ease;
+  backdrop-filter: blur(20px);
+}
+
+.navbar.navbar-at-carousel.nav-link:hover {
+color: white !important;
+}
 .navbar-nav .nav-item {
   margin-right: 30px; 
 }
 
 .navbar-nav .nav-link {
-  color: #333;
+  color: #333333;
   font-weight:500;
   font-size: large;
 }
 
 .navbar-nav .nav-link:hover {
   color: #28a745; 
-}
-
-.navbar-nav .nav-link:active {
-  color: #333!important;
 }
 
 /* Carousel
@@ -35,10 +47,6 @@ body {
 .carousel-item h2, .carousel-item h1{
   font-family: 'Montserrat', sans-serif;
    /* Apply Montserrat font to h2 */
-}
-
-.carousel-item p {
-  font-family: 'Poppins', sans-serif; /* Apply Poppins font to p */
 }
 
 .carousel-caption button {
